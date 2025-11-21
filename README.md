@@ -9,11 +9,11 @@ The project focuses on practical implementations of three key Operating Systems 
 2. **The Linker:** Demonstrating how to combine multiple C source files file1.c and file2.c into a single executable program.
 3. **The Loader:** Showing how dynamic shared libraries are loaded into memory using the ldd command.
 
-I tried to keep the code logic simple and clean so you don't slip on a banana peel while following the process flow.
+I focused on keeping the code logic simple and clean to ensure a clear and straightforward understanding of the process flow.
 
 ## 📂 Project Structure
 The repository is organized as follows:
-```
+
 ├── file1.c             # Linker example: Contains the function definition
 ├── file2.c             # Linker example: Main program calling external function
 ├── process_creation.c  # Process creation example using fork()
@@ -27,5 +27,5 @@ I have included a makefile to automate the compilation process.
 
 ## Compile
 To compile all programs at once, open your terminal in the project folder and run:
-```bash
+bash
 make

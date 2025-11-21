@@ -33,5 +33,5 @@ I have included a makefile to automate the compilation process.
 
 ## Compile
 To compile all programs at once, open your terminal in the project folder and run:
-'''bash
+```bash
 make

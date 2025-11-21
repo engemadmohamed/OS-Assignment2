@@ -15,11 +15,17 @@ I focused on keeping the code logic simple and clean to ensure a clear and strai
 The repository is organized as follows:
 
 ├── file1.c             # Linker example: Contains the function definition
+
 ├── file2.c             # Linker example: Main program calling external function
+
 ├── process_creation.c  # Process creation example using fork()
+
 ├── simple_program.c    # Basic program to demonstrate the Loader
+
 ├── makefile            # Automation script to compile all programs
+
 ├── answers.txt         # Detailed answers about Linker & Loader jobs
+
 └── LICENSE             # Open Source MIT License
 
 ## How to Build and Run
